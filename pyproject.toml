@@ -1,0 +1,13 @@
+[project]
+name = "motor-rabtor"
+version = "0.1.0"
+description = "تطبيق Motor Rabtor"
+dependencies = [
+    "flet",
+    "requests",
+    "bleak"
+]
+
+[tool.flet]
+org = "com.motorrabtor"
+product = "Motor Rabtor"
